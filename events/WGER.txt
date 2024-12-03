@@ -1,0 +1,174 @@
+##############################
+##############################
+##### WUW GERMANY EVENTS #####
+##############################
+##############################
+
+add_namespace = W_GER
+
+
+
+
+
+country_event = { 
+	id = W_GER.1
+	title = W_GER.1.t
+	desc =	W_GER.1.desc
+	picture = GFX_report_event_tank_factory
+
+	trigger = {
+		date > 1936.1.5
+		tag = GER
+	}
+	fire_only_once = yes
+	option = { 
+		name = W_GER.1.a
+		ai_chance = {
+			base = 100
+		}
+		ENG = {
+			country_event = {
+				id = W_GER.2
+				days = 7
+			}
+		}
+		USA = {
+			country_event = {
+				id = W_GER.2
+				days = 7
+			}
+		}
+		FRA = {
+			country_event = {
+				id = W_GER.2
+				days = 7
+			}
+		}
+	}
+
+
+}
+country_event = { 
+	id = W_GER.2
+	title = W_GER.2.t
+	desc =	W_GER.2.desc
+	picture = GFX_report_event_tank_factory
+
+	is_triggered_only = yes
+
+	option = { 
+		name = W_GER.2.a
+		ai_chance = {
+			base = 100
+		}
+		GER = {
+			country_event = {
+				id = W_GER.3
+				days = 7
+			}
+		}
+		
+	}
+
+
+}
+country_event = { 
+	id = W_GER.3
+	title = W_GER.3.t
+	desc =	W_GER.3.desc
+	picture = GFX_report_event_tank_factory
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = { 
+		name = W_GER.3.a
+		ai_chance = {
+			base = 100
+		}
+		set_country_flag = w_GER_Lausanne_Conference_Bankruptcy
+		country_event = {
+			id = W_GER.4
+			days = 2
+		}
+	}
+
+
+}
+
+
+country_event = { 
+	id = W_GER.4
+	title = W_GER.4.t
+	desc =	W_GER.4.desc
+	picture = GFX_report_event_tank_factory
+
+	is_triggered_only = yes
+
+	option = { 
+		name = W_GER.4.a
+		ai_chance = {
+			base = 100
+		}
+		add_days_mission_timeout = {
+			mission = W_GER_cabinet_0_Cabinet_collapse
+			days = -140
+		}
+	}
+}
+
+
+country_event = { 
+	id = W_GER.5
+	title = W_GER.5.t
+	desc =	W_GER.5.desc
+	picture = GFX_report_event_tank_factory
+
+	is_triggered_only = yes
+
+	option = { 
+		name = W_GER.5.a
+		ai_chance = {
+			base = 100
+		}
+		remove_ideas = W_GER_Fragile_political_balance
+		
+	}
+}
+
+country_event = { 
+	id = W_GER.6
+	title = W_GER.6.t
+	desc =	W_GER.6.desc
+	picture = GFX_report_event_tank_factory
+
+	is_triggered_only = yes
+
+	option = { 
+		name = W_GER.6.a
+		ai_chance = {
+			base = 100
+		}
+		set_country_flag = w_ger_Griffin_GK_assist
+		hidden_effect = {
+			division_template = {
+				name = "Griffin"
+				is_locked = yes
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+					infantry = { x = 0 y = 3 }
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 1 y = 2 }
+					infantry = { x = 1 y = 3 }
+				}
+				support = {
+					military_police = { x = 0 y = 0 }
+				}
+			}
+		}
+	}
+}

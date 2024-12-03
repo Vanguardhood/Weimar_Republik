@@ -1,0 +1,66 @@
+################
+##### IRE ######
+################
+#####
+
+W_GER_cabinet_DC = {      ##内阁
+	icon = decision_category_generic_economy
+	allowed = {
+		original_tag = GER
+	}
+	visible =  {
+		NOT = {
+			has_country_flag = W_GER_cabinet_DC_IS_DIE
+		}
+	}
+	
+	priority = {
+		base = 10
+		
+	}
+}
+
+W_GER_GriffinBenefits_and_Training = {    
+	#安全承包商
+	icon = decision_category_generic_economy
+	allowed = {
+		original_tag = GER
+	}
+	visible =  {
+		has_completed_focus = W_GER_Expand_business
+	}
+	
+	priority = {
+		base = 20
+		
+	}
+}
+
+
+W_GER_GriffinBenefits_and_Training_OBB = {    
+	#海外安全承包商
+	icon = decision_category_generic_economy
+
+	visible =  {
+		OR = {
+			has_country_flag = w_ger_Griffin_GK_assist
+			AND = {
+				capital_scope = { is_on_continent = south_america }
+				GER = {
+					has_completed_focus = W_GER_Atlantic_trade
+				}
+			}
+			AND = {
+				NOT = {
+					is_major = yes
+				}
+				has_government = democratic
+			}
+		}
+	}
+	
+	priority = {
+		base = 20
+		
+	}
+}

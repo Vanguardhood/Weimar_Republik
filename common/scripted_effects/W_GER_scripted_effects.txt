@@ -1,0 +1,24 @@
+GER_Stop_issuing_Mefu_coupons_again = {
+		remove_dynamic_modifier = { modifier = GER_mefo_bills_modifier }
+		add_dynamic_modifier = { modifier = W_GER_Federal_Bond_Risk }
+		#tooltip = W_GER_Federal_Repayment_of_consumer_goods_tt
+		custom_effect_tooltip = W_GER_Federal_Repayment_of_consumer_goods_tt
+		
+		add_to_variable = {
+			W_GER_Federal_Bond_Risk_production_speed_arms_factory_factor = -0.1
+			tooltip = production_speed_arms_factory_factor_tt
+		}
+		add_to_variable = {
+			W_GER_Federal_Bond_Risk_production_speed_dockyard_factor = -0.1
+			tooltip = production_speed_dockyard_factor_tt
+		}
+		add_to_variable = {
+			W_GER_Federal_Bond_Risk_industrial_capacity_factory = -0.1
+			tooltip = industrial_capacity_factory_tt
+		}
+		add_to_variable = {
+			W_GER_Federal_Bond_Risk_industrial_capacity_dockyard = -0.1
+			tooltip = industrial_capacity_dockyard_tt
+		}
+		
+	}

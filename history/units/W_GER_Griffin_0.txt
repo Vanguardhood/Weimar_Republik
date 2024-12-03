@@ -1,0 +1,13 @@
+﻿
+units = {
+
+	division = {	
+		name = "Griffin"
+		location = 6488
+		division_template = "Griffin"
+		start_experience_factor = 0
+	}
+
+
+	
+}

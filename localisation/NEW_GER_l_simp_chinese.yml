@@ -1,0 +1,203 @@
+﻿l_simp_chinese:
+GER_Wilhelm_Marx: "威廉·马克思"
+GER_fascism_party: "NSDAP/DNVP"
+GER_fascism_party_long: "国家社会主义德意志工人党/德意志人民党"
+GER_communism_party: "德国共产党"
+GER_communism_party_long: "德国共产党"
+GER_communism_arbeit_party: "共产主义工人党"
+GER_communism_arbeit_party_long: "共产主义工人党"
+GER_democratic_party: "国旗团"
+GER_democratic_party_long: "黑红金国旗团以及钢铁阵线"
+GER_democratic_Centre_party: "中央党"
+ GER_democratic_Centre_party_long: "天主教中央党"
+ GER_democratic_socialist_party: "德国社会民主党"
+ GER_democratic_socialist_party_long: "德国社会民主党"
+ GER_neutrality_party: "其他/地方政党"
+ GER_neutrality_party_long: "其他/地方政党"
+ GER_neutrality_party_civil_war: "军政府"
+ GER_neutrality_party_kaiserreich: "国家人民党"
+ GER_neutrality_party_kaiserreich_long: "德意志国家人民党"
+ GER_neutrality_party_military_dictatorship: "最高陆军司令部"
+ GER_neutrality_party_military_dictatorship_long: "最高陆军指挥部"
+ GER_black_front: "黑色阵线"
+ GER_black_front_long: "国家社会主义革命战斗联盟"
+
+
+
+
+W_GER_Prosperity_0: "魏玛繁荣"
+W_GER_Prosperity_0: "魏玛繁荣"
+W_GER_Prosperity_foam: "经济狂欢结束"
+W_GER_Fragile_political_balance: "脆弱的政治平衡"
+
+W_GER_Weimar_Constitution: "魏玛宪法"
+W_GER_Weimar_Constitution_desc: "宣布德国国家结构形式仍然采用联邦制，由18个邦组成，在联邦与各州权限的划分上，赋予联邦中央很大权限。规定国家管理实行共和制度，共和国依照资产阶级分权原则组织政府，并赋予总统广泛的权力。宪法还对社会经济生活专门做了规定，因此，有“经济宪法”之称。"
+W_GERThe_second_prosperity_really: "第二次繁荣?"
+W_GERThe_second_prosperity_really_TT: "§R繁荣还能维持多久§!"
+W_GERThe_second_prosperity_really_desc: "利用梅福券和自由贸易政策是魏玛第二次繁荣的基石，如果其中有任一出现差错，那都是毁灭性的"
+
+W_GER_Treaty_of_Versailles: "凡尔赛条约"
+W_GER_cabinet_0: "布吕宁内阁"
+W_GER_cabinet_0_TT: "一个左右自相掣肘的内阁，左右翼妥协的产物，但不得不说布吕宁任命沙赫特是一个正确的决定§R但布吕宁内阁还能维持多久呢§!"
+W_GER_cabinet_1: "阿登纳内阁"
+W_GER_cabinet_1_TT: "政治派系：保守主义者 中央党人"
+W_GER_cabinet_1_desc: "阿登纳1906年成为科隆市议员，并在1917年成为科隆市长，直至1933年，他展现出了卓越的行政能力和对民主的坚守。"
+W_GER_cabinet_2: "豪斯内阁"
+W_GER_cabinet_2_TT: "政治派系：自由主义者 国家党人"
+W_GER_cabinet_2_desc: "特奥多尔·豪斯是一位自由主义者，他支持民主原则和社会进步，曾是德国民主党的成员"
+W_GER_cabinet_3: "布劳恩内阁"
+W_GER_cabinet_3_TT: "政治派系：进步派 社民党人"
+W_GER_cabinet_3_desc: "奥托·布劳恩是一位社会民主党人，他在魏玛共和国时期担任普鲁士的总理。他统治普鲁士的时间较长，并且治理得相当好，被称为“末代普鲁士国王”"
+
+W_GER_The_cornerstone_of_peace_in_Europe_IDEA: "和平捍卫者"
+W_GER_Support_the_SPA_IDEA: "法兰克福纵队"
+W_GER_Support_the_SPA_IDEA_0: "德国参谋军官团"
+W_GER_Griffin_K_IDEA: "G&K"
+W_GER_W_K_T: "G&K"
+GER_G_K_industrial_concern: "G&K"
+
+#国策
+W_GER_cabinet_0_F_0: "延续政治生命"
+W_GER_cabinet_0_F_0_desc: "延续政治生命"
+W_GER_cabinet_0_F_1: "利用法国动乱"
+W_GER_cabinet_0_F_1_desc: "法国的皮埃尔·泰坦热偏好于威权主义，在1925年12月他宣称在法国建立一个威权主义的政权，并且打算通过暴力来实现。他的穿着制服的冲击小队与他们的政治对手和警察在街上多次报复冲突。"
+W_GER_cabinet_0_F_2: "向军方展示力量"
+W_GER_cabinet_0_F_2_desc: "我们计划了一系列的动员计划，并且遵循了冯·塞克特的分批次动员理念，批准了建立总共30个师的陆军扩编方案"
+W_GER_cabinet_0_F_3: "利用社民党的忽视"
+W_GER_cabinet_0_F_3_desc: "席卷而来的大萧条时代在脆弱政体的魏玛共和国给予了重大打击，布吕宁察觉到议会的软弱无能，通过与奥托·布劳恩妥协，布吕宁得到了社民党的不反对的支持"
+W_GER_cabinet_0_F_4: "维持和中央党的关系"
+W_GER_cabinet_0_F_4_desc: "维持和中央党的关系"
+W_GER_cabinet_0_F_5: "第二轮洛桑谈判"
+W_GER_cabinet_0_F_5_desc: "1932年7月9日我们同其他战胜国签订了《洛桑协定》，德国可以免除战争赔偿义务，但须交出30亿马克的整笔款项作为其免除赔款义务的补偿，而如今布吕宁计划彻底赖账，杨格及道威斯借款的利息和洛桑协定的钱都延长偿还，至少是不在布吕宁的任期内"
+w_GER_Lausanne_Conference_Bankruptcy: "第二轮洛桑谈判计划落空"
+W_GER_cabinet_0_F_5_TT_F: "如果第二轮洛桑谈判成功，将能极大延续布吕宁的政治生命"
+
+
+
+W_GER_Concealing_economic_prosperity: "掩饰经济繁荣"
+W_GER_Concealing_economic_prosperity_desc: "掩饰经济繁荣"
+W_GER_Declare_the_incompetence_of_the_democratic_system: "宣告民主制度的无能"
+W_GER_Declare_the_incompetence_of_the_democratic_system_desc: "宣告民主制度的无能"
+W_GER_Appointing_Adenauer: "任命康拉德·阿登纳"
+W_GER_Appointing_Adenauer_desc: "任命康拉德·阿登纳"
+W_GER_SDP_Adenauer_Rudolf_Breitscheid: "任命特奥多尔·豪斯"
+W_GER_SDP_Adenauer_Rudolf_Breitscheid_desc: "任命特奥多尔·豪斯"
+W_GER_SDP_Adenauer_Otto_Braun: "任命奥托·布劳恩"
+W_GER_SDP_Adenauer_Otto_Braundesc: "任命奥托·布劳恩"
+
+W_GER_The_cornerstone_of_peace_in_Europe: "欧洲和平的基石"
+W_GER_The_cornerstone_of_peace_in_Europe_desc: "“和解”才是欧洲和平的基石，在曾经战火连绵千年的欧洲大陆上,曾经习惯于以冲突和暴力方式解决生存危机和生存问题，而如今我们会主动寻求和解保证欧洲的和平"
+W_GER_Realpolitik: "现实政治"
+W_GER_Realpolitik_desc: "是由铁血宰相奥托·冯·俾斯麦所提出，当政者应以国家利益做为从事内政外交的最高考量，而不应该受到当政者的感情、道德伦理观、理想、甚至是意识形态的左右。所有的一切都应为国家利益服务"
+W_GER_mitteleuropa: "关注中欧"
+W_GER_the_austrian_question: "莱塔尼亚问题"
+W_GER_mitteleuropa_alliance: "中欧同盟"
+W_GER_the_austrian_question_desc: "小德意志解决方案是一个错误，我们必须立即纠正。我们应该胁迫奥地利加入我们的国家，或许甚至利用这个机会以布尔根兰换取与[HUN.GetNameDef]的联盟。"
+GER_the_austrian_question_more_likely_to_accept_tt: "如果他们目前领导一个阵营，他们§R不太可能§!接受。"
+W_GER_central_european_alliance: "并肩作战"
+W_GER_central_european_alliance_desc: "我们的莱塔尼亚兄弟曾经作为同盟国的一员与我们并肩作战。我们应该向他们提出一个他们无法拒绝的邀请，以便我们可以再次并肩作战。"
+W_GER_mitteleuropa_desc: "德意志人民的主要利益区域是中欧，那里是最初由普鲁士人设想为泛德意志国家中心的帝国。这些想法仍需加以完善，但它们是我们在欧洲建立新秩序的良好基础。"
+
+W_GER_Support_the_SPA: "支持共和国"
+W_GER_Support_the_SPA_desc: "支持共和国"
+W_GER_Support_the_National_Army: "支持国民军"
+W_GER_Support_the_National_Army_desc: "支持国民军"
+
+W_GER_The_Threat_Theory_of_the_FCP: "暗中影响法国局势"
+W_GER_The_Threat_Theory_of_the_FCP_desc: "人民阵线在法很得势，社会党国际也有意愿进行合作"
+W_GER_Support_the_National_Army: "支持国民军"
+W_GER_Support_the_National_Army_desc: "支持国民军"
+W_GER_accept_british_naval_dominance: "法共威胁论"
+W_GER_accept_british_naval_dominance_desc: "1935年，法国共产党联合左翼党派法国社会党、法国激进社会党及各大工会举行了全国规模的反法西斯示威，反击右翼法西斯势力的不轨图谋，并在此基础上成立了“人民阵线”法国共产党在苏联的影响和授意下行动，谁知道法共是不是在为给日后的“红色法兰西”献礼"
+W_GER_re_ratify_the_locarno_treaty: "试图与法和解"
+W_GER_re_ratify_the_locarno_treaty_desc: "《洛迦诺公约》于1925年签署，协约国尝试与我们正常化关系，同时确保欧洲的领土完整。虽然它被视为对我们的压迫，随着我们最近与[FRA.GetAdjective]关系的正常化，因此明智的选择是，深化我们的关系并正式建立友谊和互助条约，以便我们可以共同对抗东方的[SOV.GetAdjective]。"
+
+
+
+W_GER_institute_price_controls: "金融风险管制"
+W_GER_institute_price_controls_desc: "我们必须实施各种措施来加强对财政的控制，以来维持魏玛繁荣不会破灭。我们必须能够调节进口品、基本商品和工人工资的价格，以抑制通货膨胀并确保经济稳定。"
+W_GER_MCC: "组建军事承包局"
+W_GER_MCC_desc: "我们将会向有意愿的组织提供非军方民间组织身份进行攻击性质的作战部队"
+
+
+W_GER_Authorize_the_export_of_weapons: "授权武器出口"
+W_GER_Authorize_the_export_of_weapons_desc: "授权武器出口"
+
+
+W_GER_HK: "补贴轻武器公司"
+W_GER_HK_desc: "补贴轻武器公司"
+W_GER_Atlantic_trade: "大西洋贸易"
+W_GER_Atlantic_trade_desc: "大西洋贸易"
+W_GER_Expand_business: "扩展业务"
+W_GER_Expand_business_desc: "扩展业务"
+W_GER_Shadow_finance: "影子金融"
+W_GER_Shadow_finance_desc: "魏玛通过公司注册绕开监管，改头换面，它包括投资银行、对冲基金、货币市场基金、债券保险公司、结构性投资工具等非银行金融机构，在海外进行投注"
+
+
+
+
+
+
+
+
+
+W_GER.1.t: "第二轮洛桑谈判"
+W_GER.1.desc: "1932年6月16日，为继续讨论德国的赔款问题，各有关国家在洛桑召开会议。美国怕被取消所有战债，拒绝派遣正式代表，只派观察员列席会议。会上，英国主张赔款与战债一并勾销；法国希望只取消战债，保留赔款；德国提出由于经济危机，无法实施杨格计划，要求对德国赔款问题作最后的解决。英、法、意、比等国一致反对德国的意见，要求它仍需付一定数额的赔款。最后达成的协议是7月9日签订的《洛桑协定》，规定德国最后赔款额为30亿马克。停付3年后于37年内分数次付清。除此以外，德国还须偿付杨格及道威斯借款的利息。\n但事到如今德国根本没有可能进行任何债务偿还，梅福券牵一发而动全身，如果进行还款德国经济会立刻崩溃。"
+W_GER.1.a: "让我们邀请各国代表"
+W_GER.2.t: "德国邀请"
+W_GER.2.desc: "德国表示根本没有可能进行任何债务偿还，果进行还款德国经济会立刻崩溃，所有德国打算拖欠债务，暂不进行还钱"
+W_GER.2.a: "警告德国不要得寸进尺"
+W_GER.3.t: "第二轮洛桑谈判破裂"
+W_GER.3.desc: "各国拒绝德国请求"
+W_GER.3.a: "真是该死"
+W_GER.4.t: "建设性不信任案"
+W_GER.4.desc: "联邦议院有权对联邦总理表示不信任，并把他赶下台。但联邦议院不能以传统的半数以上议员的不信任迫使联邦总理下台，它必须在表示对联邦总理不信任的同时提出一名新的联邦总理候选人。因此，这种不信任案称为“建设性不信任案。\n奥图·布劳恩及其内政部长，西发利亚人卡尔·泽伟林对布吕宁内阁发动“建设性不信任投票”，如果我们不打算罢黜普鲁士邦政府，并且暴力威胁所有反对者的话，最好准备下一届内阁"
+W_GER.4.a: "布吕宁到此为止"
+
+W_GER.5.t: "脆弱的政治平衡被打破"
+W_GER.5.desc: "时限将至"
+W_GER.5.a: "必须立刻选择一位新总理"
+
+W_GER.6.t: "G&K提供许诺特殊业务"
+W_GER.6.desc: "G&K安全承包商愿意为我们提供一项特殊的业务直到战争结束，即在前线为军方提供侧翼掩护，和执行辅助任务"
+W_GER.6.a: "豪！"
+
+
+
+
+
+
+
+
+
+
+
+
+W_GER_Training_mercenaries_TT: "训练有素的佣兵+10 "
+W_GER_cabinet_0_Cabinet_collapse: "布吕宁内阁的政治生命倒计时-搞快点"
+W_GER_Federal_Repayment_of_consumer_goods_IDEA: "预期偿还生活消费品"
+W_GER_Federal_Bond_Risk_tt: "获得民族精神"
+W_GER_Federal_Repayment_of_consumer_goods_tt: "预期偿还生活消费品:§Y[?W_GER_Federal_Repayment_of_consumer_goods|%=.1]§!"
+W_GER_Federal_Bond_Risk: "金融魔术"
+W_GER_Federal_Repayment_of_consumer_goods_IDEA: "预期偿还生活消费品:§Y[?W_GER_Federal_Repayment_of_consumer_goods|%=.1]§!"
+GER_Stop_issuing_Mefu_coupons_again_desc: "预期偿还生活消费品:§Y[?W_GER_Federal_Repayment_of_consumer_goods|%=.1]§!"
+W_GER_cabinet_DC: "魏玛内阁"
+W_GER_Having_mercenaries: "佣兵人数"
+W_GER_Review_domestic_1_tt: "需要有额外的佣兵可以部署"
+W_GER_GriffinBenefits_and_Training_desc: "可部署佣兵：§Y[?W_GER_Having_mercenaries]§!个师"
+W_GER_GriffinBenefits_and_Training: "安全承包商"
+W_GER_Training_mercenaries: "训练佣兵"
+W_GER_Review_domestic_1: "部署佣兵"
+W_GER_Franchise_trade_rights: "特许贸易权"
+W_GER_Review_domestic: "审查国内"
+
+
+W_GER_GriffinBenefits_and_Training_OBB: "海外安全承包商"
+W_GER_Buy_resources_buy: "卖资源买军火"
+W_GER_Buy_resources_buy_0: "卖铁买枪"
+W_GER_Buy_resources_buy_A: "雇佣合同"
+W_GER_Hire_Griffin_mercenaries_OBB: "部署佣兵"
+
+
+variable_W_GER_Buy_resources_buy_0_tt: "每月获得枪:§Y[?variable_W_GER_Buy_resources_buy_0|=1+=]§!"
+W_GER_country_resource_steel_tt: "铁资源[?W_GER_country_resource_steel|.1+=]"

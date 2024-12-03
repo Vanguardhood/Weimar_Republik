@@ -1,0 +1,193 @@
+ideas = {
+	economy = {	
+
+		W_GER_Prosperity_0 = {
+			#魏玛繁荣？
+			cost = 150 #切换花费
+			removal_cost = -1 #更换该经济法案的花费
+	
+			available = { 
+				tag = GER
+				NOT = {
+					has_country_flag = W_GER_Prosperity_foam
+				}
+			}
+	
+			modifier = {
+				consumer_goods_expected_value = 0.20
+				production_speed_infrastructure_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
+				conversion_cost_civ_to_mil_factor= -0.1
+				conversion_cost_mil_to_civ_factor = -0.1
+				fuel_gain_factor = -0.1
+			}
+	
+	
+			cancel_if_invalid = yes
+		}	
+	}
+	country = {
+		
+		W_GER_Fragile_political_balance = {
+			#脆弱的政治平衡
+			picture = 0
+
+			modifier = {
+				political_power_factor = -0.15
+				stability_factor = 0.3
+			}
+
+		}
+		W_GER_Weimar_Constitution = {
+			#魏玛宪法
+			picture = 0
+
+			modifier = {
+				political_power_factor = -0.30
+				stability_factor = 0.15
+				drift_defence_factor = -0.7
+				democratic_drift = -0.01
+			}
+
+		}
+		W_GERThe_second_prosperity_really = {
+			#第二次繁荣?
+			picture = 0
+
+			modifier = {
+				stability_weekly = -0.001
+				custom_modifier_tooltip = W_GERThe_second_prosperity_really_TT
+			}
+
+		}
+		W_GER_Treaty_of_Versailles = {
+			#凡尔赛条约
+			picture = 0
+
+			modifier = {
+				
+			}
+
+		}
+		W_GER_cabinet_0 = {
+			#内阁——布吕宁内阁
+			picture = 0
+
+			modifier = {
+				stability_weekly = -0.001
+				stability_factor = 0.15
+				custom_modifier_tooltip = W_GER_cabinet_0_TT
+			}
+
+		}
+		W_GER_cabinet_1 = {
+			#内阁——康拉德·阿登纳
+			picture = 0
+
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				political_power_factor = 0.05
+				custom_modifier_tooltip = W_GER_cabinet_1_TT
+			}
+
+		}
+		W_GER_cabinet_2 = {
+			#内阁——鲁道夫·布莱特沙伊德
+			picture = 0
+
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				stability_factor = 0.05
+				custom_modifier_tooltip = W_GER_cabinet_2_TT
+			}
+
+		}
+		W_GER_cabinet_3 = {
+			#内阁——奥托·布劳恩
+			picture = 0
+			modifier = {
+				political_power_factor = 0.05
+				stability_factor = 0.10
+				custom_modifier_tooltip = W_GER_cabinet_3_TT
+			}
+
+		}
+		W_GER_The_cornerstone_of_peace_in_Europe_IDEA = {
+			#和平捍卫者
+			picture = 0
+			modifier = {
+				send_volunteer_size = 2
+				air_volunteer_cap = 3
+				send_volunteer_divisions_required = -0.5
+				opinion_gain_monthly_factor = 0.5
+				improve_relations_maintain_cost_factor = -0.75
+				opinion_gain_monthly_same_ideology_factor = 0.5
+			}
+
+		}
+		W_GER_Support_the_SPA_IDEA = {
+			#法兰克福纵队
+			picture = 0
+			modifier = {
+				send_volunteer_divisions_required = -0.75
+				send_volunteer_size = 3
+				send_volunteers_tension = -1
+				experience_gain_army_factor = 0.1
+				experience_gain_air_factor = 0.1
+			}
+
+		}
+		W_GER_Support_the_SPA_IDEA_0 = {
+			#德国参谋军官团
+			picture = 0
+			modifier = {
+				planning_speed = 0.15
+				army_morale_factor = 0.2
+			}
+
+		}
+
+		W_GER_Griffin_K_IDEA = {
+			#G&K
+			picture = 0
+			modifier = {
+				send_volunteers_tension = -1
+				send_volunteer_divisions_required = -1
+				experience_gain_army = 0.25
+			}
+
+		}
+	}
+	industrial_concern = {
+
+		GER_G_K_industrial_concern = {
+
+			picture = GER_reichswerke
+			
+			allowed = {
+				original_tag = GER
+			}
+
+			visible = {
+				has_completed_focus = W_GER_MCC 
+			}
+
+			available = {
+				has_completed_focus = W_GER_MCC
+			}
+			
+			cost = 150
+
+			research_bonus = {
+				excavation_tech = 0.05
+				industry = 0.05
+			}
+			
+			traits = { W_GER_W_K_T }
+			
+			ai_will_do = { factor = 8 }
+			
+		}
+
+	}
+}
