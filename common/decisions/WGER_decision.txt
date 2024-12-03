@@ -208,6 +208,14 @@ W_GER_GriffinBenefits_and_Training_OBB = {
 		
 		remove_effect = {
 			set_country_flag = W_GER_Buy_resources_buy_FLAG
+			if = {
+				limit = {
+					NOT = {
+						has_dynamic_modifier = { modifier = W_GER_G_Risk }
+					}
+				}
+				add_dynamic_modifier = W_GER_G_Risk
+			}
 		}
 	}
 	W_GER_Buy_resources_buy_0 = {
@@ -297,7 +305,14 @@ W_GER_GriffinBenefits_and_Training_OBB = {
 		
 		remove_effect = {
 			set_country_flag = W_GER_Buy_resources_buy_A_FLAG
-			
+			if = {
+				limit = {
+					NOT = {
+						has_dynamic_modifier = { modifier = W_GER_G_Risk }
+					}
+				}
+				add_dynamic_modifier = W_GER_G_Risk
+			}
 		}
 	}
 	W_GER_Hire_Griffin_mercenaries_OBB = {

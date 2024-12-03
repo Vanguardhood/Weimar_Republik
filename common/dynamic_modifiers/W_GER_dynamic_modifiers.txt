@@ -52,7 +52,7 @@ W_GER_Federal_Bond_Risk = {
 
 }
 
-W_GER_Federal_Bond_Risk = {
+W_GER_G_Risk = {
 	#格里芬收益
 	enable = {
 		always = yes
